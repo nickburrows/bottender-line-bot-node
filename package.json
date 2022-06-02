@@ -1,0 +1,31 @@
+{
+  "name": "my-bot",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "bottender dev",
+    "lint": "eslint . ",
+    "start": "bottender start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@sentry/node": "^7.0.0",
+    "@sentry/tracing": "^7.0.0",
+    "bottender": "1.5.5",
+    "child_process": "^1.0.2",
+    "ngrok": "^4.3.1",
+    "pg": "^8.7.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.16.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "file-type": "^16.5.3",
+    "jest": "^28.1.0",
+    "nodemon": "^2.0.16",
+    "prettier": "^2.6.2"
+  },
+  "engines": {
+    "node": ">=14.16"
+  }
+}
